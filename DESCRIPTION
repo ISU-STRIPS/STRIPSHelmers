@@ -1,0 +1,23 @@
+Package: STRIPSHelmers
+Title: STRIPS Helmers Lab data
+Version: 0.1
+Authors@R: c(
+    person("Jarad", "Niemi", email = "niemi@iastate.edu", role = c("aut", "cre")),
+    person("Matthew", "Helmers", email = "mhelmers@iastate.edu", role = "aut")
+    )
+Description: Watershed water quality data including sediment runoff, nitrogen,
+    and phosphorus.
+Depends:
+    R (>= 3.0)
+Suggests:
+    STRIPSMeta,
+    dplyr,
+    tidyr,
+    testthat,
+    knitr,
+    rmarkdown
+Remotes:
+    ISU-STRIPS/STRIPSMeta
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
