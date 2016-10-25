@@ -19,4 +19,16 @@
 #' \code{tp_mgL}, \code{no3_mgL}, and \code{watershed}.
 #'
 #' @seealso \code{\link{groundwater}}
+#'
+#' @examples
+#' # Calculate average all crop sediment, total nitrogen, and phosphorus loads.
+#' library(dplyr)
+#' surfacewater %>%
+#'   left_join(STRIPSMeta::watersheds) %>%
+#'   filter(prairie_pct == 0, year>2007) %>%
+#'   select(watershed, sed_kgha, tn_kgha, tp_kgha) %>%
+#'   na.omit() %>%
+#'   summarize(sed_Mgha = mean(sed_kgha)/1000,
+#'             tn_kgha  = mean(tn_kgha),
+#'             tp_kgha  = mean(tp_kgha))
 "surfacewater"
