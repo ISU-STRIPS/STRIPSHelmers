@@ -3,7 +3,6 @@
 #' This function will summarize surface and ground water by watershed and
 #' year combination for analysis in the PNAS paper.
 #'
-#' @param prairie_cost A scalar indicating how much the prairie costs.
 #' @return A \code{data.frame} containing the columns PI, source, watershed,
 #' year, response, and value.
 #' @import dplyr

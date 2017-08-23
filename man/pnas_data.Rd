@@ -6,9 +6,6 @@
 \usage{
 pnas_data()
 }
-\arguments{
-\item{prairie_cost}{A scalar indicating how much the prairie costs.}
-}
 \value{
 A \code{data.frame} containing the columns PI, source, watershed,
 year, response, and value.
