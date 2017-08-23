@@ -1,6 +1,6 @@
 Package: STRIPSHelmers
 Title: STRIPS Helmers Lab data
-Version: 0.1
+Version: 0.1.1
 Authors@R: c(
     person("Jarad", "Niemi", email = "niemi@iastate.edu", role = c("aut", "cre")),
     person("Matthew", "Helmers", email = "mhelmers@iastate.edu", role = "aut")
