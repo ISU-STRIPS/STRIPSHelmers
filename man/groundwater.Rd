@@ -17,4 +17,3 @@ Groundwater data for monthly nitrate and phosphate.
 \code{\link{surfacewater}}
 }
 \keyword{datasets}
-
